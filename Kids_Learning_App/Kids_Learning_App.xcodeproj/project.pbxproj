@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A3E53A023DC34DA0038193C /* HomeCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E539E23DC34DA0038193C /* HomeCVCell.swift */; };
-		1A3E53A123DC34DA0038193C /* HomeCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E539F23DC34DA0038193C /* HomeCVCell.xib */; };
-		1A3E53A423DC4B900038193C /* HomeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E53A323DC4B900038193C /* HomeCVC.swift */; };
-		1A3E53AD23DC50110038193C /* HomeCVHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E53AB23DC50110038193C /* HomeCVHeaderView.swift */; };
-		1A3E53AE23DC50110038193C /* HomeCVHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E53AC23DC50110038193C /* HomeCVHeaderView.xib */; };
 		B026307C23A4D09900477EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026307B23A4D09900477EE2 /* AppDelegate.swift */; };
 		B026307E23A4D09900477EE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026307D23A4D09900477EE2 /* SceneDelegate.swift */; };
 		B026308023A4D09900477EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B026307F23A4D09900477EE2 /* ViewController.swift */; };
@@ -23,11 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A3E539E23DC34DA0038193C /* HomeCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCVCell.swift; sourceTree = "<group>"; };
-		1A3E539F23DC34DA0038193C /* HomeCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCVCell.xib; sourceTree = "<group>"; };
-		1A3E53A323DC4B900038193C /* HomeCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCVC.swift; sourceTree = "<group>"; };
-		1A3E53AB23DC50110038193C /* HomeCVHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCVHeaderView.swift; sourceTree = "<group>"; };
-		1A3E53AC23DC50110038193C /* HomeCVHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCVHeaderView.xib; sourceTree = "<group>"; };
 		B026307823A4D09900477EE2 /* Kids_Learning_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kids_Learning_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B026307B23A4D09900477EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B026307D23A4D09900477EE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,33 +41,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A3E539C23DC343D0038193C /* Xib */ = {
-			isa = PBXGroup;
-			children = (
-				1A3E539E23DC34DA0038193C /* HomeCVCell.swift */,
-				1A3E539F23DC34DA0038193C /* HomeCVCell.xib */,
-				1A3E53AB23DC50110038193C /* HomeCVHeaderView.swift */,
-				1A3E53AC23DC50110038193C /* HomeCVHeaderView.xib */,
-			);
-			path = Xib;
-			sourceTree = "<group>";
-		};
-		1A3E539D23DC345C0038193C /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				1A3E539C23DC343D0038193C /* Xib */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		1A3E53A223DC4B540038193C /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				1A3E53A323DC4B900038193C /* HomeCVC.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
 		B026306F23A4D09800477EE2 = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				B026309223A4D74800477EE2 /* Main.storyboard */,
-				1A3E539D23DC345C0038193C /* Home */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,7 +84,6 @@
 		B026309023A4D72900477EE2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				1A3E53A223DC4B540038193C /* Home */,
 				B026307F23A4D09900477EE2 /* ViewController.swift */,
 				B065B83E23B78A6400BB5D63 /* LearningViewController.swift */,
 			);
@@ -203,8 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B026309323A4D74800477EE2 /* Main.storyboard in Resources */,
-				1A3E53AE23DC50110038193C /* HomeCVHeaderView.xib in Resources */,
-				1A3E53A123DC34DA0038193C /* HomeCVCell.xib in Resources */,
 				B026308823A4D09A00477EE2 /* LaunchScreen.storyboard in Resources */,
 				B026308523A4D09A00477EE2 /* Assets.xcassets in Resources */,
 			);
@@ -221,10 +180,7 @@
 				B026308023A4D09900477EE2 /* ViewController.swift in Sources */,
 				B065B83F23B78A6500BB5D63 /* LearningViewController.swift in Sources */,
 				B026307C23A4D09900477EE2 /* AppDelegate.swift in Sources */,
-				1A3E53A423DC4B900038193C /* HomeCVC.swift in Sources */,
 				B026307E23A4D09900477EE2 /* SceneDelegate.swift in Sources */,
-				1A3E53A023DC34DA0038193C /* HomeCVCell.swift in Sources */,
-				1A3E53AD23DC50110038193C /* HomeCVHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +318,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Kids_Learning_App/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.Kids-Learning-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -380,7 +335,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Kids_Learning_App/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +342,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.Kids-Learning-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
